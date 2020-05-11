@@ -1,0 +1,67 @@
+.cuadrado{
+    background-color: white;
+    padding: 50px 40px;
+    max-width: 550px;
+    position: absolute;
+    top: 200px;
+    margin-left: 80px;
+}
+
+.select-css-calendar {
+	display: block;
+	font-family: var(--light);
+    font-size: var(--text-s);
+    padding-left: 20px;
+    min-height: 90px;
+    border: 1px solid var(--gris);
+    background-color: var(--white);
+    color: var(--gris);
+    width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url(/images/calendar.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+}
+
+.select-css-arrow {
+	display: block;
+	font-family: var(--light);
+    font-size: var(--text-s);
+    padding-left: 20px;
+    min-height: 90px;
+    border: 1px solid var(--gris);
+    background-color: var(--white);
+    color: var(--gris);
+    width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url(/images/arrow.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+}
+
+.select-css-calendar, .select-css-arrow:focus {
+	outline: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.width{
+    margin-top: 20px;
+    width: 50%;
+}
+
+.width:first-child{
+    margin-right: 20px;
+}
+
+.separation{
+    margin-top: 20px;
+}

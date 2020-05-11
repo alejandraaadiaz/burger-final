@@ -1,0 +1,74 @@
+.hero-slide{
+    background-image: url(/images/HOME/Fotohome.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0.8;
+}
+
+.hero-entrantes{
+    background-image: url(/images/ENTRANTES/FotoEntrantes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0.8;
+}
+
+.hero-detalle{
+    background-image: url(/images/DETALLE/Kiki.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0.8;
+}
+
+.hero-reserva{
+    background-image: url(/images/reserva.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 1;
+}
+
+.hero{
+    background-color: black;
+    position: relative;
+}
+
+.text-hero{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-hero{
+    width: 200px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+}
+
+.text-hero p{
+    font-family: var(--black);
+    font-size: var(--text-hero);
+    line-height: 1;
+}
+

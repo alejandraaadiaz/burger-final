@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    max-width: 100%;
+}
+
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--negro);
+} 
+
+a{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: var(--rosa);
+    color: var(--white);
+}
+
+.button{
+    background-color: var(--rosa);
+    padding: 25px 50px;
+    color: var(--white);
+    font-family: var(--black);
+    font-size: var(--text-m);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--rosaoscuro);
+    transition: background-color 0.2s linear;
+}
+
+.centerbutton{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+}
+
+
+

@@ -1,0 +1,48 @@
+.galeria{
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria img {
+    object-fit: cover;
+}
+
+.big{
+    height: 480px;
+}
+
+.small{
+    height: 370px;
+}
+
+.long{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.short{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.label{
+    font-family: var(--heavy);
+    color: var(--white);
+    width: 250px;
+    height: 90px;
+    padding: 15px;
+    line-height: 1.2;
+    background-color: var(--rosa);
+    position: absolute;
+    top: 0;
+}
+
+.labelrelative{
+    position: relative;
+}
+
+
+.halftext{
+    max-width: 50%;
+    margin-left: auto;
+}

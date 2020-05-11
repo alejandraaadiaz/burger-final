@@ -1,0 +1,29 @@
+.galeria-entrantes{
+    display:flex;
+
+}
+
+.top{
+    padding-bottom: 40px;
+}
+
+.labelrelative-ent{
+    position: relative;
+    max-width: 33.3%;
+    padding-right: 40px;
+    
+}
+
+.labelrelative-ent img{
+    object-fit: cover;
+}
+
+.container-entrantes{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*
+.centerentrantes{
+    
+}*/

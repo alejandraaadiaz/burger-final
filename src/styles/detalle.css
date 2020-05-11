@@ -1,0 +1,24 @@
+.prodname{
+    text-align: left;
+    color: var(--negro);
+}
+
+.detalle-halftext{
+    max-width: 50%;
+    margin-right: 0;
+}
+
+.others h1{
+    font-size: var(--text-l);
+    font-family: var(--heavy);
+}
+
+.line{
+    border-top: 2px solid var(--rosa);
+    max-width: 300px;
+    margin: auto;
+}
+/*
+.hero-detalle{
+    
+}*/

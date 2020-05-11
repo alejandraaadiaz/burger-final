@@ -1,0 +1,35 @@
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cont-estrecho{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.top-spacer {
+    margin-top: var(--margin-v-l);
+}
+
+.top-spacer-m{
+    margin-top: var(--margin-v-m);
+}
+
+.top-spacer-s{
+    margin-top: var(--margin-v-s);
+}
+
+.bottom-spacer {
+    margin-bottom: var(--margin-v-l);
+}
+
+.bottom-spacer-m {
+    margin-bottom: var(--margin-v-m);
+}
+
+.bottom-spacer-s {
+    margin-bottom: var(--margin-v-s);
+}
+
+

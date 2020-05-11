@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+title: La Kiki | Oh My Burger!
+---
+<body>
+
+	<div class="cuadrado">
+		<h3 class="tituloreserva bottom-spacer-s">¡HAZ TU RESERVA!</h3>
+		<p class="bottom-spacer-s">
+			Te ayudamos a encontrar el Oh My Burger! ideal para ti.
+		</p>
+		<form>
+			<select id="ciudad" class="select-css-arrow">
+				<option selected>Seleccione una ciudad</option>
+				<option>Barcelona</option>
+				<option>Madrid</option>
+				<option>Bilbao</option>
+			</select>
+
+			<select id="fecha" class="select-css-calendar separation ">
+				<option selected>Fecha</option>
+				<option>Hoy</option>
+				<option>3/06/2020</option>
+				<option>4/06/2020</option>
+				<option>5/06/2020</option>
+				<option>6/06/2020</option>
+				<option>7/06/2020</option>
+				<option>8/06/2020</option>
+			</select>
+
+			<div class="flex">
+				<select id="hora" class="select-css-arrow width ">
+					<option selected>Hora</option>
+					<option>13:00</option>
+					<option>13:30</option>
+					<option>14:00</option>
+					<option>14:30</option>
+					<option>15:00</option>
+					<option>15:30</option>
+					<option>16:00</option>
+				</select>
+				<select id="comensales" class="select-css-arrow width ">
+					<option selected>Personas</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>Grupo +5</option>
+				</select>
+			</div>
+		</form>
+		<div class="centerbutton top-spacer-m">
+			<a class="button">RESERVAR</a>
+		</div>
+	</div>
+
+</body>
