@@ -1,0 +1,63 @@
+@font-face {
+    font-family: MontBlack;
+    src: url(../tipos/Mont-Black.woff);
+}
+
+@font-face {
+    font-family: MontBold;
+    src: url(../tipos/Mont-Bold.woff;);
+}
+
+@font-face {
+    font-family: MontHeavy;
+    src: url(../tipos/Mont-Heavy.woff);
+}
+
+@font-face {
+    font-family: MontRegular;
+    src: url(../tipos/Mont-Regular.woff);
+}
+
+@font-face {
+    font-family: MontLight;
+    src: url(../tipos/Mont-Light.woff);
+}
+
+body{
+    color: var(--negro);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--black);
+    font-size: var(--text-xl);
+    line-height: 1;
+    color: var(--rosa);
+}
+
+h2{
+    text-align: center;
+    font-family: var(--heavy);
+    font-size: var(--text-l);
+    line-height: 1;
+    color: var(--rosa);
+}
+
+h3{
+    text-align: left;
+    font-family: var(--black);
+    font-size: var(--text-m);
+    line-height: 1;
+    color: var(--negro);
+}
+
+p{
+    font-family: var(--regular);
+    font-size: var(--text-s);
+    line-height: 1.5;
+}
+
+p strong{
+    font-family: var(--regular);
+    font-weight: bold;
+}

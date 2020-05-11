@@ -1,0 +1,28 @@
+body {
+    /*Font Family*/
+    --black: 'MontBlack';
+    --heavy: 'MontHeavy';
+    --bold: 'MontBold';
+    --regular: 'MontRegular';
+    --light: 'MontLight';
+
+    /*Colores*/
+    --white: #ffffff;
+    --negro: #111111;
+    --rosa: #EE4268;
+    --rosaoscuro: #CC1948;
+    --gris: #AAAAAA;
+
+    /*Escala tipográfica*/
+    --text-hero: 115px;
+    --text-xl: 50px;
+    --text-l: 40px;
+    --text-m: 30px;
+    --text-s: 25px;
+    --text-footer: 14px;
+
+    /*Espaciados*/
+    --margin-v-l: 190px;
+    --margin-v-m: 100px;
+    --margin-v-s: 35px;
+}
