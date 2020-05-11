@@ -11,7 +11,59 @@
   <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body id="top" itemscope itemtype="http://schema.org/WebPage">
+
+  <!--AQUÍ VA EL HEADER -->
+  <div class="header" id="navbar">
+			<a href="index.html">
+				<img src="img/LogoNegro.svg" class="logo">			
+			</a>
+			<a href="#">CARTA</a>
+			<a href="reserva.html" class="resaltado">RESERVA</a>
+			<a href="#">HACER PEDIDO</a>
+			<a href="#">CONTACTO</a>
+		</div>
+
+  <!--AQUÍ VA EL CONTENIDO DE CADA PÁGINA -->
   {{ content | safe }}
+
+  <!--AQUÍ VA EL FOOTER -->
+  <div class="footer">
+			<div class="cont-estrecho footerelements bottom-spacer-s">
+				<div class="linksfooter">
+					<div class="menufooter">
+						<a href="#">CARTA</a>
+						<a href="#" class="resaltadofooter">RESERVA</a>
+						<a href="#">HACER PEDIDO</a>
+						<a href="#">CONTACTO</a>
+					</div>
+
+					<div class="menufooter">
+						<a href="#">POLÍTICA DE PRIVACIDAD</a>
+						<a href="#">BASES Y CONDICIONES</a>
+						<a href="#">AVISO LEGAL</a>
+					</div>
+				</div>
+
+				<a href="index.html">
+					<img src="img/LogoBlanco.svg" alt="" class="logo">
+				</a>
+
+				<div class="rrss">
+					<a href="#">
+						<img src="img/FOOTER/Twitter.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/FOOTER/Facebook.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/FOOTER/Insta.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<p class="copyright">© 2020 Oh My Burger! - Todos los derechos reservados</p>
+
+		</div>
   <script src="/scripts/index.js"></script>
 </body>
 </html>

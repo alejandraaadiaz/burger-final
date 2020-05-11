@@ -1,0 +1,44 @@
+
+.header{
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+    padding: 20px 40px;
+  }
+  
+  #navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  #navbar a {
+    color: var(--negro);
+    font-family: var(--black);
+    font-size: var(--text-m);
+  }
+  
+  #navbar a:hover {
+    color: var(--rosa);
+    transition: color 0.1s linear;
+  }
+  
+  #navbar a.resaltado{
+    background-color: var(--rosa);
+    padding: 15px 20px;
+    color: var(--white);
+  }
+  
+  #navbar a.resaltado:hover{
+    background-color: var(--rosaoscuro);
+    transition: backround-color 0.2s linear;
+  }
+  
+  .menu-nav{
+      display: none;
+  }
+  .show-menu{
+      display: none;
+  }
