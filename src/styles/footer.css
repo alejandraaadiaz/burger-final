@@ -2,6 +2,7 @@
     background-color: var(--negro);
     color: white;
     font-size: var(--copyright);
+    padding: 1px;
 }
 
 .copyright{

@@ -17,14 +17,14 @@
 
 .long{
     width: 100%;
-    padding-bottom: 40px;
 }
 
 .short{
     width: 100%;
-    padding-bottom: 40px;
 }
 
+
+/*CARTELITOS*/
 .label{
     font-family: var(--heavy);
     color: var(--white);
@@ -35,10 +35,14 @@
     background-color: var(--rosa);
     position: absolute;
     top: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .labelrelative{
     position: relative;
+    margin-bottom: 40px;
 }
 
 

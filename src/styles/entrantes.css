@@ -1,6 +1,6 @@
 .galeria-entrantes{
     display:flex;
-
+    justify-content: center;
 }
 
 .top{
@@ -23,7 +23,7 @@
     padding-right: 200px;
 }
 
-/*
+
 .centerentrantes{
     
-}*/
+}
