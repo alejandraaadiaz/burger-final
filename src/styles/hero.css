@@ -21,7 +21,7 @@
 }
 
 .hero-detalle{
-    background-image: url(/images/DETALLE/Kiki.jpg);
+    background-image: url(/images/DETALLE/aros.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -37,9 +37,10 @@
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     opacity: 1;
+    padding-top: 180px;
 }
 
 .hero{

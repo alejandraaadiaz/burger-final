@@ -11,6 +11,10 @@ img:hover{
     transition: opacity 0.2s linear;
 }
 
+.nonhover:hover img{
+    opacity: 1;
+}
+
 body {
     background-color: var(--white);
     color: var(--negro);
@@ -27,7 +31,7 @@ a{
 
 .button{
     background-color: var(--rosa);
-    padding: 25px 50px;
+    padding: 25px 70px;
     color: var(--white);
     font-family: var(--black);
     font-size: var(--text-m);
@@ -44,6 +48,7 @@ a{
 }
 .logo{
     width: 100px;
+    max-width: 100px;
 }
 
 

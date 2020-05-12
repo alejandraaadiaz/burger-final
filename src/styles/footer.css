@@ -8,7 +8,7 @@
 .copyright{
     text-align: center;
     padding-bottom: 40px;
-    font-size: var(--copyright);
+    font-size: var(--text-footer);
 }
 
 .menufooter{

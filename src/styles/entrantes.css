@@ -1,6 +1,7 @@
 .galeria-entrantes{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .top{
@@ -9,7 +10,7 @@
 
 .labelrelative-ent{
     position: relative;
-    max-width: 33.3%;
+    width: 400px;
     padding-right: 40px;
     
 }
@@ -21,9 +22,4 @@
 .container-entrantes{
     padding-left: 200px;
     padding-right: 200px;
-}
-
-
-.centerentrantes{
-    
 }
