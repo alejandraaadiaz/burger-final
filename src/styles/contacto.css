@@ -1,0 +1,12 @@
+input{
+    display: block;
+	font-family: var(--light);
+    font-size: var(--text-s);
+    padding-left: 20px;
+    min-height: 90px;
+    border: 1px solid var(--gris);
+    background-color: var(--white);
+    color: var(--gris);
+    width: 100%;
+    margin-bottom: 20px;
+}
