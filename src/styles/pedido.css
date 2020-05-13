@@ -12,7 +12,7 @@
 .alimento{
     display: flex;
     max-width: 540px;
-    max-height: 150px;
+    min-height: 150px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
     background-color: white;
 }
@@ -23,11 +23,11 @@
 }
 
 .textoalimento p, .cesta p{
-    font-size: var(--texto-xs);
+    font-size: var(--text-xs);
 }
 
 .textoalimento h3{
-    font-size: var(--texto-s);
+    font-size: var(--text-s);
 }
 
 .fotoalimento{

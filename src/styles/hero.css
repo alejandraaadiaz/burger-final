@@ -31,7 +31,7 @@
     opacity: 0.8;
 }
 
-.hero-reserva{
+.hero-reserva, .hero-segundareserva{
     background-image: url(/images/reserva.jpg);
     background-repeat: no-repeat;
     background-position: center center;

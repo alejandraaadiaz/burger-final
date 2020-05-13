@@ -7,7 +7,6 @@
 
 .copyright{
     text-align: center;
-    padding-bottom: 40px;
     font-size: var(--text-footer);
 }
 
@@ -45,5 +44,10 @@
 
 .rrss img{
     padding: 10px;
+}
+
+.fotmq{
+    margin-top: -10px;
+    display: none;
 }
   

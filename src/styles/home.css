@@ -1,6 +1,7 @@
 .galeria{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .galeria img {
@@ -33,6 +34,7 @@
     padding: 15px;
     line-height: 1.2;
     background-color: var(--rosa);
+    font-size: var(--text-s);
     position: absolute;
     top: 0;
     margin: 0;
