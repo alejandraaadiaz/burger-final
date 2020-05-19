@@ -1,4 +1,4 @@
 import list from './modules/list'
-import '/menu.js'
+import './menu.js'
 
 console.log(`Hello ${list[0]}`)

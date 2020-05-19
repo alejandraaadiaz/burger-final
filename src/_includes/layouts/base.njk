@@ -13,16 +13,16 @@
 <body id="top" itemscope itemtype="http://schema.org/WebPage">
 
   <!--AQUÍ VA EL HEADER -->
-  <div class="header" id="navbar">
-			<a href="/" class="nonhover">
-				<img src="/images/LogoNegro.svg" class="logo">			
-			</a>
-			<a href="/entrantes/">CARTA</a>
-			<a href="/reserva/" class="resaltado">RESERVA</a>
-			<a href="/pedido/">HACER PEDIDO</a>
-			<a href="/contacto/">CONTACTO</a>
+  	<div class="header" id="navbar">
+		<a href="/" class="nonhover">
+			<img src="/images/LogoNegro.svg" class="logo">			
+		</a>
+		<a href="/entrantes/">CARTA</a>
+		<a href="/reserva/" class="resaltado">RESERVA</a>
+		<a href="/pedido/">HACER PEDIDO</a>
+		<a href="/contacto/">CONTACTO</a>
 	</div>
-	<!--A
+	
 	<button id="show-menu" class="show-menu">
 		<a href="/">
 			<img src="/images/menurosa.svg" alt="">
@@ -34,15 +34,20 @@
 		</button>
 		<ul>
 			<li><a href="/">HOME</a></li>
+			<hr/>
 			<li><a href="/entrantes/">CARTA</a></li>
-			<li><a href="/detalle/">RESERVA</a></li>
+			<hr/>
+			<li><a href="/reserva/">RESERVA</a></li>
+			<hr/>
 			<li><a href="/pedido/">HACER PEDIDO</a></li>
+			<hr/>
 			<li><a href="/contacto/">CONTACTO</a></li>
+			<hr/>
 		</ul>
 	</div>
 	
 	<script src="/menu.js"></script>
-	-->
+	
   <!--AQUÍ VA EL CONTENIDO DE CADA PÁGINA -->
  
     {{ content | safe }}
