@@ -1,8 +1,10 @@
 .cuadrado{
     background-color: white;
-    padding: 50px 40px;
+    padding: 15px 40px;
     max-width: 550px;
     margin-left: 80px;
+    margin-top: -890px;
+    position: relative;
 }
 
 .select-css-calendar {
@@ -62,4 +64,8 @@
 
 .separation{
     margin-top: 20px;
+}
+
+.titulomq p{
+    display: none;
 }

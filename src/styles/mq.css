@@ -20,7 +20,9 @@
     .detalle-halftext{
         max-width: 100%;
     }
-    
+    .prodped{
+        padding-top: 50px;
+    }
 }
 
 @media(max-width: 1270px) { 
@@ -29,6 +31,9 @@
     }
     .colder{
         padding-left: 0;
+    }
+    .top{
+        padding: 0;
     }
 }
 
@@ -144,14 +149,20 @@
     .cesta{
         display: none;
     }
-
+    .cont-estrecho{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .prodped{
+        padding-top: 10px;
+    }
 }
 
 
 
 @media(max-width: 750px) { 
     body{
-        --text-hero: 90px;
+        --text-hero: 70px;
     }
     .halftext{
         max-width: 100%;
@@ -169,18 +180,20 @@
     .alimento{
         box-shadow: none;
     }
-     /*
-    .textoalimento{
-        margin-top:-10px;
-    }
-    */
 
     .cuadrado{
         background-image: none;
         margin-left:0;
     }
-    /*
+    
     .hero-reserva{
-        display: none;
-    }*/
+        margin-bottom: 0;
+    }
+    .cuadrado{
+        margin: 0;
+    }
+
+    .titulomq p{
+        display: block;
+    }
 }

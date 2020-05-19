@@ -36,6 +36,7 @@ a{
     font-family: var(--black);
     font-size: var(--text-m);
     cursor: pointer;
+    display: inline-block;
 }
 
 .button:hover{
