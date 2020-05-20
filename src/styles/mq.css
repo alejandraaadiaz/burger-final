@@ -107,8 +107,7 @@
         border-radius: .3rem;
         cursor: pointer;
         margin-left: auto;
-        padding-right: 40px;
-        padding-top: 40px;
+        padding: 70px 40px;
         font-family: var(--bold);
         font-size: 18px;
         display: block;
@@ -153,9 +152,37 @@
         padding-left: 40px;
         padding-right: 40px;
     }
-    .prodped{
-        padding-top: 10px;
+    .logomq{
+        position: absolute;
+        z-index: 2;
+        padding: 40px;
     }
+    
+    .logosize{
+        max-width: 90px;
+        width: 90px;
+    }
+
+    .logoresp{
+        display: block;
+    }
+
+    .iconocesta{
+        display: block;
+        width: 40px;
+        max-height: 20px;
+        border-radius: 30px;
+        background-color: var(--rosa);
+        font-family: var(--heavy);
+        color: var(--white);
+        text-align: center;
+    }
+    
+    .topper{
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
 
 
@@ -197,3 +224,4 @@
         display: block;
     }
 }
+
